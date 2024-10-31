@@ -1,0 +1,304 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Note from '~/components/widgets/Note.astro';
+import Features from '~/components/widgets/Features.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import Content from '~/components/widgets/Content.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import Image from '~/components/common/Image.astro';
+
+
+const metadata = {
+  title: 'AI in Complex Systems Lab',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+
+  <!-- Logo ******************* -->
+  <div class="flex flex-row justify-center gap-x-4 pt-5">
+    <Image width={450} src="~/assets/images/ualbany.png" alt="Logo" />
+    <Image width={300} src="~/assets/images/logo.png" alt="Logo" />
+  </div>
+  
+  <!-- Hero Widget ******************* -->
+<Hero image={{ src: '~/assets/images/lab2.jpeg', alt: 'Lab' }}>
+  <!-- Animated Gradient Title -->
+  <Fragment slot="title">
+    <h1 class="text-5xl py-3 font-extrabold bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">
+      AI in Complex Systems Lab
+    </h1>
+  </Fragment>
+
+  <!-- Bold Subtitle -->
+  <Fragment slot="subtitle">
+    <p class="text-xl py-5 font-bold text-white">
+      The AI in Complex Systems Laboratory, led by Dr. Canbaz, is at the forefront of advancing artificial intelligence within complex systems and networks.
+    </p>
+  </Fragment>
+
+  <!-- Bold Content -->
+  <Fragment slot="content">
+    <p class="text-md py-5 font-bold text-gray-300">
+      University at Albany SUNY, ETEC Room 264
+      <br>1220 Washington Avenue, Albany, NY 12226
+    </p>
+  </Fragment>
+</Hero>
+
+
+  <!-- Note Widget ******************* -->
+
+  <Note content="Beyond Code 2025 Registrations are open now."/>
+
+
+  <Content
+    isReversed
+    tagline="Our"
+    title="Mission & Focus"
+    items={[
+      {
+        title: 'Research Hub',
+        description:
+          'A convergence point for experts in AI, network science, and complex systems.',
+      },
+      {
+        title: 'Specialized AI Algorithms & Models',
+        description:
+          'Developing AI algorithms and models for analyzing complex networks in various fields.',
+      },
+      {
+        title: 'Innovative Solutions',
+        description:
+          'Tackling intricate challenges and opportunities in AI integration.',
+      },
+    ]}
+    image={{
+      src: '~/assets/images/img2.jpg',
+      alt: 'Colorful Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Building on modern foundations</h3>
+      Gain a competitive advantage by incorporating industry leading practices
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <Content
+    isAfterContent
+    tagline="Our"
+    title="Director"
+    items={[
+      {
+        title: 'Dr. M. Abdullah Canbaz',
+        description: `Dr. Canbaz, the director of the AI in Complex Systems Lab, is a leading expert in the fields of complex networks, graph data science, and multi-layer data representation and analytics. His research focuses on developing foundational models and algorithms for AI integration at the tactical edge. For more details please visit: drcanbaz.com`,
+      }
+    ]}
+    image={{
+      src: '~/assets/images/people/canbaz.jpeg',
+      alt: 'Photo of Dr. Canbaz',
+    }}
+  >
+    <!-- <Fragment slot="content">Ensure your online presence truly represents you.</Fragment> -->
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- Our Research Areas ******************* -->
+
+  <Features
+    tagline="What We Do"
+    title="Research Focus Areas"
+    items={[
+      {
+        title: 'Internet of Things & Smart Systems',
+        description: 'Develop AI for IoT, enhancing resilience in smart grids, healthcare, and urban planning.',
+        icon: 'tabler:devices',
+      },
+      {
+        title: 'Measurement Studies',
+        description: 'Analyze AI performance across networked systems, focusing on speed, accuracy, and resilience.',
+        icon: 'tabler:gauge',
+      },
+      {
+        title: 'Data Curation',
+        description: 'Curate and process extensive datasets to support AI model development and validation.',
+        icon: 'tabler:database',
+      },
+      {
+        title: 'Processing & Networks',
+        description: 'Optimize distributed AI architectures for efficiency in complex and data-intensive systems.',
+        icon: 'tabler:network',
+      },
+      {
+        title: 'Digital Twin Modeling',
+        description: 'Build virtual representations of physical systems for real-time monitoring and analysis.',
+        icon: 'tabler:cube',
+      },
+      {
+        title: 'AI Governane & Ethics',
+        description: 'Develop ethical AI frameworks and governance models for responsible AI deployment.',
+        icon: 'tabler:shield-check',
+      },
+    ]}
+  />
+
+  <!-- Real-World Impact ******************* -->
+
+   <Steps
+   title="Creating Real-World Impact"
+   image={{
+    src: '~/assets/images/img1.jpeg',
+    alt: 'Steps image',
+   }}
+   items={[
+     {
+       title: 'Interdisciplinary Collaboration',
+       description: 'We collaborate with experts across fields, including healthcare, urban planning, and more.',
+       icon: 'tabler:users',
+     },
+     {
+       title: 'Tools & Frameworks',
+       description: 'Develop custom AI tools for practical deployment, bridging academia and industry.',
+       icon: 'tabler:tool',
+     },
+     {
+       title: 'Efficiency & Resilience',
+       description: 'Our solutions enhance system resilience, empowering industries to tackle complex challenges.',
+       icon: 'tabler:bolt',
+     },
+   ]}
+ />
+
+ <!-- Lab Stats ******************* -->
+
+ <Stats
+    title='Lab Stats'
+    stats={[
+     { title: 'Papers Published', amount: '20+' },
+     { title: 'Grant Funding', amount: '$600k+' },
+     { title: 'Graduate Students', amount: '8' },
+     { title: 'Undergraduate Students', amount: '4' },
+   ]}
+ />
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+  title="Our Team"
+  subtitle="Meet the dedicated students contributing to our research"
+  items={[
+    {
+      title: 'Radhakrishnan VenkataKrishnan',
+      description: 'Ph.D. Student',
+      image: {
+        src: '~/assets/images/people/radha.jpeg',
+        alt: 'Photo',
+      }
+    },
+    { 
+      title: 'Mahsa Goodarzi',
+      description: 'Ph.D. Student',
+      image: {
+        src: '~/assets/images/people/mahsa.jpeg',
+        alt: 'Photo',
+      }
+    },
+    {
+      title: 'Mizan Rahman',
+      description: 'Ph.D. Student',
+      image: {
+        src: '~/assets/images/people/mizan.png',
+        alt: 'Photo',
+      }
+    },
+    {
+      title: 'Hakan Otal',
+      description: 'Ph.D. Student',
+      image: {
+        src: '~/assets/images/people/hakan.jpeg',
+        alt: 'Photo',
+      }
+    },
+    {
+      title: 'Rawan Al Makinah',
+      description: 'Ph.D. Student',
+      image: {
+        src: '~/assets/images/people/rawan.jpeg',
+        alt: 'Photo',
+      }
+    },
+    {
+      title: 'Melany Rumman',
+      description: 'Ph.D. Student',
+      image: {
+        src: '~/assets/images/people/melany.png',
+        alt: 'Photo',
+      }
+    },
+    {
+      title: 'Mikail Demir',
+      description: 'Ph.D. Student',
+      image: {
+        src: '~/assets/images/people/mikail.png',
+        alt: 'Photo',
+      }
+    },
+    {
+      title: 'Christoph Schwartz',
+      description: 'Masters Student',
+      image: {
+        src: '~/assets/images/people/chris.png',
+        alt: 'Photo',
+      }
+    },
+    {
+      title: 'Betul Tok',
+      description: 'Undergraduate Student',
+      image: {
+        src: '~/assets/images/people/betul.png',
+        alt: 'Photo',
+      }
+    },
+    {
+      title: 'Kenny Huang',
+      description: 'Undergraduate Student',
+      image: {
+        src: '~/assets/images/people/kenny.png',
+        alt: 'Photo',
+      }
+    },
+    {
+      title: 'Bekzod Iskandarov',
+      description: 'Undergraduate Student',
+      image: {
+        src: '~/assets/images/people/bekzod.png',
+        alt: 'Photo',
+      }
+    },
+    {
+      title: 'Rumeysa Kara',
+      description: 'Undergraduate Student',
+      image: {
+        src: '~/assets/images/people/rumeysa.png',
+        alt: 'Photo',
+      }
+    },
+  ]}
+/>
+
+<!-- Background styling if needed -->
+<Fragment slot="bg">
+  <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+</Fragment>
+
+
+</Layout>

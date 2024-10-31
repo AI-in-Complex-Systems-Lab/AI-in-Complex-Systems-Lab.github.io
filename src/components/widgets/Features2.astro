@@ -1,0 +1,72 @@
+---
+import Image from '~/components/common/Image.astro';
+import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
+
+interface Props {
+  title: string;
+  subtitle: string;
+  items: {
+    title: string;
+    description: string;
+    image: string | { src: string; alt: string };
+  }[];
+  id?: string;
+  isDark?: boolean;
+  classes?: { container: string };
+  bg?: string;
+}
+
+const {
+  title = await Astro.slots.render('title'),
+  subtitle = await Astro.slots.render('subtitle'),
+  items = [],
+
+  id,
+  isDark = false,
+  classes = {},
+  bg = await Astro.slots.render('bg'),
+} = Astro.props;
+---
+
+<WidgetWrapper id={id} isDark={isDark} containerClass={`max-w-7xl mx-auto`} bg={bg}>
+  <div class="features2-container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div class="text-center">
+      <h2 class="text-3xl font-extrabold text-gray-900 dark:text-white">
+        {title}
+      </h2>
+      <p class="mt-4 text-lg text-gray-600 dark:text-slate-300">
+        {subtitle}
+      </p>
+    </div>
+    
+    <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      {items.map(({ title, description, image }) => (
+        <div class="text-center">
+        {
+          image && (
+            <div class="relative m-auto max-w-4xl">
+              {typeof image === 'string' ? (
+                <Fragment set:html={image} />
+              ) : (
+                <Image
+                  class="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-purple-500 shadow-lg"
+                  width={500}
+                  height={500}
+                  widths={[400, 768]}
+                  sizes="(max-width: 768px) 100vw, 432px"
+                  layout="responsive"
+                  {...image}
+                />
+              )}
+            </div>
+          )
+        }
+          
+          <h3 class="text-xl font-semibold text-gray-900 dark:text-white">{title}</h3>
+          <p class="text-md text-gray-600 dark:text-slate-300">{description}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+  
+</WidgetWrapper>

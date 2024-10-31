@@ -1,0 +1,40 @@
+site:
+  name: AI in Complex Systems Lab
+  site: 'https://aicompsyslab.github.io'
+  base: '/'
+  trailingSlash: false
+
+  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
+
+# Default SEO metadata
+metadata:
+  title:
+    default: AI in Complex Systems Lab
+    template: '%s — AI in Complex Systems Lab'
+  description: "\U0001F680 Research lab"
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    site_name: AI in Complex Systems Lab
+    images:
+      - url: '~/assets/images/default.png'
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: '@onwidget'
+    site: '@onwidget'
+    cardType: summary_large_image
+
+i18n:
+  language: en
+  textDirection: ltr
+
+analytics:
+  vendors:
+    googleAnalytics:
+      id: null # or "G-XXXXXXXXXX"
+
+ui:
+  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
