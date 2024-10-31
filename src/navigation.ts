@@ -21,7 +21,7 @@ export const headerData = {
     {
       text: 'ACM AI/ML Chapter',
       href: getPermalink('/acm'),
-    }
+    },
   ],
 };
 
@@ -30,5 +30,5 @@ export const footerData = {
     { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/company/ai-complex-lab/' },
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/AI-in-Complex-Systems-Lab' },
     { ariaLabel: 'Huggingface', icon: 'hf-logo', href: 'https://huggingface.co/AICmpxSysLab' },
-  ]
+  ],
 };

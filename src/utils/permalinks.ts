@@ -52,7 +52,7 @@ export const getPermalink = (slug = '', type = 'page'): string => {
     case 'home':
       permalink = getHomePermalink();
       break;
-    
+
     case 'research':
       permalink = createPath(RESEARCH_BASE, trimSlash(slug));
       break;

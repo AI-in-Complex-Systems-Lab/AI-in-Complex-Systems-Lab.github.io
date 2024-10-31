@@ -2,8 +2,6 @@
 import Layout from '~/layouts/PageLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
-import Image from '~/components/common/Image.astro';
-
 
 const metadata = {
   title: 'Recent Research',
@@ -24,29 +22,36 @@ const papers = import.meta.glob<MarkdownInstance<Frontmatter>>('/src/pages/resea
 // for(const key in papers) {
 //   console.log(papers[key].frontmatter);
 // }
-const sortedPapers = Object.values(papers).sort((a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime());
+const sortedPapers = Object.values(papers).sort(
+  (a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime()
+);
 ---
 
 <Layout metadata={metadata}>
-  
   <!-- Hero Widget ******************* -->
-<Hero image={{ src: '~/assets/images/lab.png', alt: 'Lab' }}>
-  <Fragment slot="title">
-    <h1 class="text-5xl pb-16 font-extrabold bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">
-      Recently Published Papers
-    </h1>
+  <Hero image={{ src: '~/assets/images/lab.png', alt: 'Lab' }}>
+    <Fragment slot="title">
+      <h1
+        class="text-5xl pb-16 font-extrabold bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent"
+      >
+        Recently Published Papers
+      </h1>
 
-    <ul class="space-y-6">
-      {sortedPapers.map(paper => (
-        <li class="p-4 bg-white shadow-md rounded-md">
-          <a href={paper.url} class="text-2xl font-semibold text-blue-600 hover:underline">
-            {paper.frontmatter.title}
-          </a>
-          <p class="text-gray-800 mt-2">{paper.frontmatter.author}</p>
-          <p class="text-gray-600">{paper.frontmatter.venue}, {paper.frontmatter.date}</p>
-        </li>
-      ))}
-    </ul>
-  </Fragment>
-</Hero>
+      <ul class="space-y-6">
+        {
+          sortedPapers.map((paper) => (
+            <li class="p-4 bg-white shadow-md rounded-md">
+              <a href={paper.url} class="text-2xl font-semibold text-blue-600 hover:underline">
+                {paper.frontmatter.title}
+              </a>
+              <p class="text-gray-800 mt-2">{paper.frontmatter.author}</p>
+              <p class="text-gray-600">
+                {paper.frontmatter.venue}, {paper.frontmatter.date}
+              </p>
+            </li>
+          ))
+        }
+      </ul>
+    </Fragment>
+  </Hero>
 </Layout>
