@@ -3,11 +3,12 @@ layout: '~/layouts/MarkdownLayout.astro'
 title: 'Beyond Coding + AI 2025'
 ---
 
+### BEYOND CODING: AI CHALLENGE DAY
+
 ## [Sign up is open!](https://albany.az1.qualtrics.com/jfe/form/SV_e9EcHSSGdnfCMHI)
 
 ---
 
-### BEYOND CODING: AI CHALLENGE DAY
 
 ## SAVE THE DATE!
 
