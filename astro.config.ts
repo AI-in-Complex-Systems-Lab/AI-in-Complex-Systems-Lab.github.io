@@ -36,9 +36,7 @@ export default defineConfig({
       iconDir: './src/icons',
       include: {
         tabler: ['*'],
-        'flat-color-icons': [
-          'services',
-        ],
+        'flat-color-icons': ['services'],
       },
     }),
 

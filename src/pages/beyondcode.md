@@ -9,7 +9,6 @@ title: 'Beyond Coding + AI 2025'
 
 ---
 
-
 ## SAVE THE DATE!
 
 **Saturday, April 26th, 2025**  
