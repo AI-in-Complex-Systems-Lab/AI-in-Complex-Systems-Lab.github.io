@@ -7,7 +7,7 @@ venue: 'IEEE Conference on Communications and Network Security (CNS), Taiwan'
 date: '2024-10-01'
 ---
 
-[Paper Link](https://arxiv.org/abs/2409.08234)
+[Paper Link](https://ieeexplore.ieee.org/document/10735607)
 
 **Abstract**
 
