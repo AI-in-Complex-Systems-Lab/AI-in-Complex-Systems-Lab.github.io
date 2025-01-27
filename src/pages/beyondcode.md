@@ -5,7 +5,7 @@ title: 'Beyond Coding + AI 2025'
 
 ### BEYOND CODING: AI CHALLENGE DAY
 
-## [Sign up is open!](https://albany.az1.qualtrics.com/jfe/form/SV_e9EcHSSGdnfCMHI)
+## [Sign up is open!](https://albany.az1.qualtrics.com/jfe/form/SV_bCvqAh4Hn7H8mGy)
 
 ---
 
@@ -72,3 +72,7 @@ _ETEC 149-151 and Podium Space_
 - **Prizes**
 - **Interactive AI Demos**
 - **Networking Opportunities**
+
+---
+
+#### [Don't forget to checkout NTIR conference as well!](https://www.conftool.com/ntir2025/)
