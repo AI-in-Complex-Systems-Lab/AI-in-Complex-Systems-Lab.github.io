@@ -19,8 +19,7 @@ title: 'Beyond Coding: AI + Fun Day 2025'
 
 ### WE'RE LOOKING FOR:
 
-- Graduates (Masters and Ph.D.) and Undergraduates from all programs
-- Highschool juniors and seniors 
+- Students from all ages and programs!
 - Anyone keen on learning and participating in AI in Entertainment
 - No coding knowledge needed!
 
