@@ -12,15 +12,17 @@ title: 'Beyond Coding: AI + Fun Day 2025'
 📅 **Saturday, April 26th, 2025**  
 📍 ETEC Building, 1220 Washington Ave, Albany, NY 12203   
 🏢 Room 149-151 and Podium Space   
+💸 Free to register!
 
 ---
 
 ![flyer](~/assets/images/ai_day_flyer.jpg)
 
-### WE'RE LOOKING FOR:
+### EVENT HIGHLIGHTS:
 
 - Students from all ages and programs!
-- Anyone keen on learning and participating in AI in Entertainment
+  - _This is a drop in but not a drop off event and all children 17 and under need to be accompanied by a parent/guardian._
+- Anyone keen on learning and participating in AI in Entertainment.
 - No coding knowledge needed!
 
 ---
@@ -74,4 +76,4 @@ title: 'Beyond Coding: AI + Fun Day 2025'
 
 ---
 
-#### [Don't forget to checkout NTIR conference as well!](https://www.albany.edu/ntir)
+#### [**Don't forget to checkout NTIR conference as well!**](https://www.albany.edu/ntir)
