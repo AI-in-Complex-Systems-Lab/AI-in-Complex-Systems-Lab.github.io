@@ -1,20 +1,21 @@
 ---
 layout: '~/layouts/MarkdownLayout.astro'
-title: 'Beyond Coding + AI 2025'
+title: 'Beyond Coding: AI + Fun Day 2025'
 ---
 
-### BEYOND CODING: AI CHALLENGE DAY
-
-## [Sign up is open!](https://albany.az1.qualtrics.com/jfe/form/SV_bCvqAh4Hn7H8mGy)
+## [**Sign up is open!**](https://albany.az1.qualtrics.com/jfe/form/SV_bCvqAh4Hn7H8mGy)
 
 ---
 
 ## SAVE THE DATE!
 
-**Saturday, April 26th, 2025**  
-_ETEC 149-151 and Podium Space_
+📅 **Saturday, April 26th, 2025**  
+📍 ETEC Building, 1220 Washington Ave, Albany, NY 12203   
+🏢 Room 149-151 and Podium Space   
 
 ---
+
+![flyer](~/assets/images/ai_day_flyer.jpg)
 
 ### WE'RE LOOKING FOR:
 
@@ -75,4 +76,4 @@ _ETEC 149-151 and Podium Space_
 
 ---
 
-#### [Don't forget to checkout NTIR conference as well!](https://www.conftool.com/ntir2025/)
+#### [Don't forget to checkout NTIR conference as well!](https://www.albany.edu/ntir)
