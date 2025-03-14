@@ -33,6 +33,12 @@ title: 'Beyond Coding: AI + Fun Day 2025'
 - **Human AI**
 - **Data Collection**
 
+### OPPORTUNITIES:
+
+- **Prizes for the Winners**
+- **Fun Interactive AI Demos**
+- **Networking Opportunities**
+
 ---
 
 ### EVENT SCHEDULE:
@@ -64,15 +70,7 @@ title: 'Beyond Coding: AI + Fun Day 2025'
 - **5:15 PM** — _Announcement of Winners_  
   Winners will be determined based on a combination of expert votes (2 points each) and audience votes (1 point each). Prizes will be awarded for the most innovative and engaging AI-driven entertainment concepts.
 
-**Note:** Participants should bring a laptop for the challenge and to participate in workshops.
-
----
-
-### EVENT HIGHLIGHTS:
-
-- **Prizes**
-- **Interactive AI Demos**
-- **Networking Opportunities**
+**Note:** Participants should bring a laptop for the challenge and to participate in the competition.
 
 ---
 
