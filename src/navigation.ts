@@ -7,11 +7,11 @@ export const headerData = {
       href: getPermalink('/'),
     },
     {
-      text: 'Recent Publications',
+      text: 'Research Publications',
       href: getPermalink('/research'),
     },
     {
-      text: 'Beyond Coding + AI',
+      text: 'AI + Fun Day 2025',
       href: getPermalink('/beyondcode'),
     },
     {

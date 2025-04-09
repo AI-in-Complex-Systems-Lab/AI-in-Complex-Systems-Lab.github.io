@@ -3,7 +3,8 @@ layout: '~/layouts/MarkdownLayout.astro'
 title: 'Beyond Coding: AI + Fun Day 2025'
 ---
 
-## [**Sign up is open!**](https://albany.az1.qualtrics.com/jfe/form/SV_bCvqAh4Hn7H8mGy)
+## [**Sign up from HERE!**](https://albany.az1.qualtrics.com/jfe/form/SV_bCvqAh4Hn7H8mGy)
+**[Deadline: April 22nd]**
 
 ---
 
@@ -11,8 +12,9 @@ title: 'Beyond Coding: AI + Fun Day 2025'
 
 📅 **Saturday, April 26th, 2025**  
 📍 ETEC Building, 1220 Washington Ave, Albany, NY 12203   
-🏢 Room 149-151 and Podium Space   
-💸 Free to register!
+🏢 Room 149-151, Podium Space
+
+#### [**Don't forget to checkout NTIR conference as well!**](https://www.albany.edu/ntir)   
 
 ---
 
@@ -21,27 +23,24 @@ title: 'Beyond Coding: AI + Fun Day 2025'
 ### EVENT HIGHLIGHTS:
 
 - Students from all ages and programs!
-  - _This is a drop in but not a drop off event and all children 17 and under need to be accompanied by a parent/guardian._
 - Anyone keen on learning and participating in AI in Entertainment.
 - No coding knowledge needed!
 
----
-
 ### AI CHALLENGES IN:
 
-- **Design Governance**
-- **Human AI**
-- **Data Collection**
+- 🤖 **Human AI Interaction**
+- 🗂️ **Data Governance**
+- 💻 **Development Design**
 
 ### OPPORTUNITIES:
 
-- **Prizes for the Winners**
-- **Fun Interactive AI Demos**
-- **Networking Opportunities**
+- 🏆 **Prizes for the Winners**
+- 🕹️ **Fun Interactive AI Demos**
+- 🤝 **Networking Opportunities**
 
 ---
 
-### EVENT SCHEDULE:
+### AI CHALLENGE EVENT SCHEDULE:
 
 - **11:30 AM - 12:15 PM** — _Registration_  
   Check-in and mingle with fellow participants while AI-generated music sets the tone.
@@ -70,8 +69,31 @@ title: 'Beyond Coding: AI + Fun Day 2025'
 - **5:15 PM** — _Announcement of Winners_  
   Winners will be determined based on a combination of expert votes (2 points each) and audience votes (1 point each). Prizes will be awarded for the most innovative and engaging AI-driven entertainment concepts.
 
-**Note:** Participants should bring a laptop for the challenge and to participate in the competition.
+**Note: Participants should bring a laptop for the challenge and to participate in the competition.**
 
 ---
 
-#### [**Don't forget to checkout NTIR conference as well!**](https://www.albany.edu/ntir)
+
+## Roll & Race: Sphero Golf Challenge & AI Adventures
+
+
+![flyer](~/assets/images/ai_day_flyer2.png)
+
+
+### EVENT HIGHLIGHTS:
+
+- Open for ages 8 to 17 _(This is a drop in but not a drop off event and all children 17 and under need to be accompanied by a parent/guardian.)_
+- Mini-Golf Race Course with Sphero robots
+- Interactive AI Project Demos 
+
+### EVENT SCHEDULE:
+
+-   **11:30 AM - 02:30 PM** — _Registration & Check-In_  
+  Participants receive name badges and event swag (stickers, wristbands). Informal icebreaker activities (e.g., simple AI trivia cards).
+
+-   **11:30 PM - 02:30 PM** — _Welcome (Dr. Cornell & Hossain)_  
+  Brief introduction to robotics, AI, and the day's activities. Exciting demonstration of a Sphero navigating a mini-golf obstacle to set the stage.
+
+-   **11:30 PM - 3:00 PM** — _Main Activities_
+
+-   **3:00 PM - 3:45 PM** — _Wrap Up_
