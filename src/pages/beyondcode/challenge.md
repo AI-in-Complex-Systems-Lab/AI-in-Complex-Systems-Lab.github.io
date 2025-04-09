@@ -27,21 +27,6 @@ Working in groups of three, you'll brainstorm imaginative and exciting concepts 
     *   Illustrate how the AI could suggest humorous captions, generate exciting art styles, auto-edit videos in viral-worthy ways, or compose original music tracks customized to personal tastes or trending topics.
 
 
-### 🎯 Deliverables (no coding required!):
-
-*   **4-Pages Creative Report**
-    *   Clearly describe your AI-powered entertainment concept, highlighting what's unique and engaging about your idea.
-
-<a href="src/assets/docs/GroupX_Report.docx" download target="_blank">Download Submission Report Template</a>
-
-
-*   **Visual Presentation (slides, sketches, storyboards)**
-    *   Bring your idea to life visually—use drawings, sketches, images, or diagrams to illustrate your concept vividly.
-
-<a href="src/assets/docs/GroupX_Presentation.pptx" download target="_blank">Download Presentation Template</a>
-
-
-
 ### 🌟 Judging Criteria:
 
 *   **Creativity & Originality:** Uniqueness and innovation of your entertainment idea.
@@ -50,7 +35,21 @@ Working in groups of three, you'll brainstorm imaginative and exciting concepts 
 *   **Team Presentation:** How engagingly you share and visually showcase your idea.
 
 
-## Instructions to Upload
+### 🎯 Deliverables:
+
+*   **4-Pages Idea Report**
+    *   Clearly describe your AI-powered entertainment concept, highlighting what's unique and engaging about your idea.
+
+<a href="src/assets/docs/GroupX_Report.docx" download target="_blank">Download Submission Report Template</a>
+
+
+*   **2-Minutes Presentation (slides, sketches, storyboards)**
+    *   Bring your idea to life visually—use drawings, sketches, images, or diagrams to illustrate your concept vividly.
+
+<a href="src/assets/docs/GroupX_Presentation.pptx" download target="_blank">Download Presentation Template</a>
+
+
+## Submission Instructions
 
 > [not ready yet]
 
