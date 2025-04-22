@@ -23,9 +23,18 @@ Working in groups of three, you'll brainstorm imaginative and exciting concepts 
 <a href="/docs/GroupX_Presentation.pptx" download target="_blank">Download Presentation Template</a>
 
 
-## 📝 Submission Instructions
+### 📝 Submission Instructions
 
 * Upload your presentation and report files **before** the deadline!
 * Don't forget to rename your files with your group number!
 
 **[SUBMIT HERE](https://livealbany-my.sharepoint.com/:f:/g/personal/hotal_albany_edu/EhldiaytGzJBjtYBuwOH8m0BbFImLjyc-0ldi3lh7UdoSQ?e=XfA5FW)** 
+
+
+### 💡 Useful Resources & Inspiration
+
+* [Google AI Studio](https://aistudio.google.com/)
+* [Diagram Sketching Tool](https://excalidraw.com/)
+* [AI in Media and Entertainment](https://www.leewayhertz.com/ai-in-media-and-entertainment/)
+* [How is AI used in entertainment?](https://www.miquido.com/blog/how-is-ai-used-in-entertainment/)
+* [15 Real-Life Use Cases For AI](https://redresscompliance.com/top-15-real-life-use-cases-for-ai-in-the-entertainment-industry/)
