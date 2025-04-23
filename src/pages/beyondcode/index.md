@@ -3,9 +3,9 @@ layout: '~/layouts/MarkdownLayout.astro'
 title: 'Beyond Coding: AI + Fun Day 2025'
 ---
 
-## [**Sign up from HERE!**](https://albany.az1.qualtrics.com/jfe/form/SV_bCvqAh4Hn7H8mGy)
-<!-- ## **Registrations are closed!** -->
-**[Deadline: April 22nd]**
+<!-- ## [**Sign up from HERE!**](https://albany.az1.qualtrics.com/jfe/form/SV_bCvqAh4Hn7H8mGy) -->
+## **Registrations are closed!**
+<!-- **[Deadline: April 22nd]** -->
 
 ---
 
