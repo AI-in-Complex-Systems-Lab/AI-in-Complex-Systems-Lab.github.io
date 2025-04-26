@@ -28,7 +28,8 @@ Working in groups of three, you'll brainstorm imaginative and exciting concepts 
 * Upload your presentation and report files **before** the deadline!
 * Don't forget to rename your files with your group number!
 
-**[SUBMIT HERE](https://livealbany-my.sharepoint.com/:f:/g/personal/hotal_albany_edu/EhldiaytGzJBjtYBuwOH8m0BbFImLjyc-0ldi3lh7UdoSQ?e=XfA5FW)** 
+**[SUBMIT HERE](https://livealbany-my.sharepoint.com/:f:/g/personal/hotal_albany_edu/EhldiaytGzJBjtYBuwOH8m0BbFImLjyc-0ldi3lh7UdoSQ?e=G6xheP)** 
+
 
 
 ### 💡 Useful Resources & Inspiration
